@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# Sitemap será publicado quando o domínio definitivo estiver definido.

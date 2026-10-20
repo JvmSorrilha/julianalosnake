@@ -1,0 +1,83 @@
+{
+  "id": "./",
+  "name": "Juliana Losnake — Advocacia",
+  "short_name": "Juliana Losnake",
+  "description": "Advocacia em Direito de Família e proteção dos direitos sociais.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#F2E9CE",
+  "theme_color": "#401C19",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "categories": ["business", "legal"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Áreas de atuação",
+      "short_name": "Atuação",
+      "description": "Direito de Família e áreas de atuação",
+      "url": "./index.html#atuacao",
+      "icons": [{ "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "BPC/LOAS",
+      "short_name": "BPC/LOAS",
+      "description": "Proteção social e BPC destinado à pessoa idosa",
+      "url": "./index.html#bpc",
+      "icons": [{ "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Contato",
+      "short_name": "Contato",
+      "description": "Falar com a Dra. Juliana",
+      "url": "./index.html#contato",
+      "icons": [{ "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "previews/home-mobile.jpg",
+      "sizes": "390x844",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Página inicial no celular"
+    },
+    {
+      "src": "previews/mobile-menu.jpg",
+      "sizes": "390x844",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Menu mobile e instalação do aplicativo"
+    },
+    {
+      "src": "previews/home-desktop.jpg",
+      "sizes": "1440x1000",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Página inicial no desktop"
+    }
+  ]
+}
